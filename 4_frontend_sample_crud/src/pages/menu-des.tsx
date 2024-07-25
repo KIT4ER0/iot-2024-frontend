@@ -70,10 +70,6 @@ export default function MenuDescription() {
                   <h3 className="text-lg font-semibold">รายละเอียด</h3>
                   <p>{coffee.description}</p>
                 </div>
-                <div className="space-y-2">
-                  <h3 className="text-lg font-semibold">อร่อยแน่ๆ</h3>
-                  
-                </div>
                 <Button
                   component={Link}
                   to="/menu"
